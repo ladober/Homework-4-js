@@ -14,7 +14,7 @@ const getAdvice = async () => {
 
     let data = await response.json();
 
-    adviceId.innerHTML = data.slip.id;
+    adviceId.innerHTML = `ADVICE # ${data.slip.id}`;
     adviceText.innerHTML = `"${data.slip.advice}"`;
   } catch (error) {
     console.error(error);
