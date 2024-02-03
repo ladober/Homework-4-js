@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'Comic';
+    src: url(/COMIC.TTF);
+}
+.container {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    height: 260px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.advice-text{
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+    height: 200px;
+}
+#js-advice-id {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Comic';
+}
+
+#js-advice {
+    position: relative;
+    bottom: 15px;
+    font-size: 25px;
+    color:white;
+    font-family: 'Comic';
+}
+
+.btn{
+    border-radius: 5px;
+    border: 1px rgb(224, 222, 222) solid;
+    font-family: 'Comic';
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:active{
+    border: 1px rgb(160, 159, 159) solid;
+}
